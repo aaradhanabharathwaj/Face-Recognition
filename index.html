@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <title>Project 103</title>    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">    
+    <link href="https://fonts.googleapis.com/css2?family=Acme&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Convergence&family=Engagement&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap" rel="stylesheet">
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+   <link rel="stylesheet" href="style.css">  
+  </head>
+  <body>
+    <div class="container">
+      
+      <center>
+  <h2>Face Recognition</h3>
+        <br><br>  
+        <p style="font-size: 22px;">This Model is trained to recognise the Faces of the Members of our Family.👪 </p>
+  <h3 class="face_of_the_person">
+    <hr>
+    Daughter how she is now... 👸
+    <hr>
+    Daughter when she was a Baby... 👼
+    <hr>
+    Dad... 👱‍♂️
+    <hr>
+    Mum... 👱‍♀️
+    <hr>
+    </h3>
+    <br>
+    <br>
+        <h5>The Web Cameras's View:</h5>
+  <div id="camera"></div>
+        <br><br>
+  <div id="result"></div>
+        <br><br>
+  <button id="click" onclick="click_image()">Capture the Image</button>
+        <br><br>
+  <button id="id" onclick="identify()">Identify the Image</button>
+        <br><br>
+  
+        <h4 style="font-size: 22px;">Face : <span id="result_face"></span> </p>
+        <h4 style="font-size: 22px;">Accuracy : <span id="accuracy"></span> </p>
+      </center>
+  
+    </div>
+  <script src="main.js"></script>
+  
+    </body>
+  </html>
